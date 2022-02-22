@@ -7,6 +7,7 @@ font-family: 'Raleway', sans-serif;  (400 / 500)
 
 */
 
+
 html, body {
     margin: 0;
     padding: 0;
@@ -70,14 +71,27 @@ p{
 }
 
 a{
-    text-decoration: none;
     color: black;
-    font-weight:600;
-    font-size:0.9rem;
+    font-weight:500;
 }
 
 small{
     font-size: 1rem;
+}
+
+ol li, ol li a{
+    font-size: 1.2rem;
+}
+
+ol li{
+    line-height: 1.5;
+    
+}
+
+ol li a{
+    text-decoration: none;
+    border-bottom: 1px solid gray;
+    margin-bottom: 1rem;
 }
 
 .img-1, .img-2, .img-3,
@@ -163,6 +177,7 @@ small{
 .navigation-ul-items li a{
     font-size: 1rem;
     opacity: 0.8;
+    text-decoration: none;
 }
 
 section.max-default{
@@ -185,7 +200,7 @@ article > a{
     text-transform: uppercase;
     font-size:0.8rem;
     letter-spacing:2px;
-    color: brown;
+    color: gray;
     position: relative;
     top:15px;
 }
