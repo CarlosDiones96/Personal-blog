@@ -30,14 +30,14 @@
         <nav class="navigation">
             <ul class="max-default navigation-ul">
                 <div class="navigation-ul-items">
-                    <li><a href="#" class="home-link">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#home" class="home-link">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </div>
 
                 <div>
-                    <a href="#">
+                    <a href="#home">
                         <?xml version="1.0" ?>
                         <!DOCTYPE svg
                             PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg
@@ -63,7 +63,7 @@
 
     <main>
         <section class="max-default flex-section">
-            <div>
+            <div id="home">
                 <h2>Home</h2>
             </div>
             <div>
@@ -89,7 +89,7 @@
         <img class="img-3">
 
         <section class="max-default flex-section">
-            <div>
+            <div id="about">
                 <h2>About</h2>
             </div>
             <div>
@@ -117,7 +117,7 @@
         <img class="img-4">
 
         <section class="max-default flex-section">
-            <div>
+            <div id="blog">
                 <h2>Blog</h2>
             </div>
             <div>
@@ -150,7 +150,7 @@
         <img class="img-2">
 
         <section class="max-default flex-section">
-            <div>
+            <div id="contact">
                 <h2>Contact</h2>
             </div>
             <div>
@@ -287,7 +287,7 @@
                         <label for="search"> Search </label>
                         <div>
                             <input type="search" id="search" placeholder="Search..." size="30">
-                            <input class="search-icon" type="button">
+                            <input class="search-icon" type="button" value="Search">
                         </div>
                     </form>
 
