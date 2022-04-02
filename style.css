@@ -315,3 +315,10 @@ input[type=search]{
     width: 96%;
     border-radius: 0.2rem;
 }
+
+
+@media screen and (max-width: 1018px){
+    .max-default{
+        width:100%;
+    }
+}
